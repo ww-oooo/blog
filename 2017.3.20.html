@@ -51,6 +51,16 @@
 	 <pre class="highlight"><code><span class="kd">SELECT</span> <span class="o">*</span> <span class="o">FORM</span> <span class="nx">表</span> <span class="o">WHERE</span>
 </code></pre>
 </div>
+<p>子句:</p>
+<div class="language-js highlighter-rouge">
+	 <pre class="highlight"><code><span class="kd">WHERE</span>   <span class="nx">条件</span>
+<span class="kd">ORDER</span>   <span class="nx">排序</span>
+<span class="kd">GROUP</span>   <span class="nx">聚类-合并相同</span>
+
+<span class="kc">假如现在有一张表,表里分别是不同班级的学生,查询每个班级有几个人:</span>
+<span class="kd">SELECT</span> <span class="nx">班级,</span><span class="kd">COUNT(班级)</span> <span class="o">FORM</span> <span class="nx">表名</span> <span class="o">GROUP BY</span> <span class="nx">班级</span>
+     
+</div>
 
 
 
